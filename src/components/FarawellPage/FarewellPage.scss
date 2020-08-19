@@ -1,0 +1,134 @@
+@font-face {
+	font-family: "Yekan Bakh";
+	src: url("../../assets/fonts/YekanBakh-Regular/YekanBakh-Regular.ttf")
+		format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Yekan Bakh";
+	src: url("../../assets/fonts/YekanBakh-Bold/YekanBakh-Bold.ttf")
+		format("truetype");
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Sign Painter";
+	src: url("../../assets/fonts/SignPainerHouseScript-Regular/SignPainterHouseScriptRegular.ttf")
+		format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+.background {
+	position: fixed;
+	top: -50%;
+	left: -50%;
+	width: 200%;
+	height: 200%;
+	img {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		min-width: 50%;
+		min-height: 50%;
+	}
+}
+.FarewellPage {
+	.farewell-page {
+		position: relative;
+		min-height: 100vh;
+		// border: 1px solid black;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		font-family: "Yekan Bakh";
+		direction: rtl;
+		padding: 0 30px;
+	}
+	.farewell-page--title {
+		text-align: center;
+		margin-top: 105px;
+		font-size: 30px;
+		margin-bottom: 14px;
+		color: #e3e3e3;
+	}
+
+	.main {
+		padding-bottom: 100px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	footer {
+		position: absolute;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		// align-items: space-between;
+		bottom: 0;
+		width: 100%;
+		height: 150px;
+		color: #e3e3e3;
+	}
+
+	.footer-logo {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		height: 100%;
+		img {
+			width: 100px;
+			height: 50px;
+		}
+	}
+	.question-page-footer {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		bottom: 0;
+		width: 100%;
+		height: 100px;
+	}
+
+	.footer-header {
+		font-size: 25px;
+		color: #e3e3e3;
+	}
+
+	.footer--subtile {
+		font-size: 15px;
+	}
+
+	.footer-header {
+		display: flex;
+		margin-bottom: 5px;
+	}
+
+	.footer-header--title--logo {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-family: "Sign Painter";
+		margin: 0 10px 0 0;
+		border: none;
+		border-radius: 10px;
+		border-top-left-radius: 20px;
+		width: 73px;
+		height: 38px;
+		background: rgb(184, 59, 94);
+		background: linear-gradient(
+			360deg,
+			rgba(184, 59, 94, 1) 0%,
+			rgba(239, 137, 93, 1) 100%
+		);
+	}
+}
